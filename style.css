@@ -99,3 +99,10 @@
         color: #dad5d2;
         text-transform: capitalize;
     }
+    /* MEDIA QUERY */
+    
+    @media (max-width: 400px) {
+        main {
+            padding: 65px 30px;
+        }
+    }
