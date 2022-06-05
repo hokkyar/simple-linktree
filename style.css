@@ -40,16 +40,20 @@
         padding: 65px 60px;
     }
     
+    main a {
+        height: 50px;
+    }
+    
     .kotak-link {
         display: flex;
         border-radius: 5px;
         margin: 15px 0 19px;
-        width: 100%;
         padding: 8px;
         background-color: #5f7782;
         align-items: center;
         justify-content: center;
         box-shadow: 0 3px 4px 2px rgb(41, 40, 40);
+        text-decoration: none;
     }
     
     .kotak-link>.logo {
@@ -70,28 +74,23 @@
         background-image: url('assets/instagram.png');
     }
     
-    .kotak-link>a {
-        text-decoration: none;
+    .kotak-link>p {
         font-size: 25px;
         text-transform: capitalize;
         margin-left: 20px;
         width: 100%;
-        background-color: #dad5d2;
-        color: transparent;
-        background-clip: text;
-        -webkit-background-clip: text;
+        color: #dad5d2;
     }
     
-    .kotak-link>a:hover {
-        color: transparent;
-        background: linear-gradient(#1b2225, #c53679);
-        background-clip: text;
-        -webkit-background-clip: text;
+    .kotak-link:hover {
+        transition: .3s;
+        opacity: .9;
     }
     
     footer {
-        margin: 30px 0;
+        margin: 10px 0;
         text-align: center;
+        padding: 5px;
     }
     
     footer>a {
