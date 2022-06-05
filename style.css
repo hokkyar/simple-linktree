@@ -67,11 +67,15 @@
     }
     
     .kotak-link>.portofolio {
-        background-image: url('assets/open-book.png');
+        background-image: url('assets/portfolio.png');
     }
     
     .kotak-link>.instagram {
         background-image: url('assets/instagram.png');
+    }
+    
+    .kotak-link>.linkedin {
+        background-image: url('assets/linkedin.png');
     }
     
     .kotak-link>p {
@@ -104,5 +108,8 @@
     @media (max-width: 400px) {
         main {
             padding: 65px 30px;
+        }
+        .kotak-link>p {
+            font-size: 19px;
         }
     }
