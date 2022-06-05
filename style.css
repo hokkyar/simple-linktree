@@ -42,18 +42,18 @@
     
     main a {
         height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
     }
     
     .kotak-link {
-        display: flex;
         border-radius: 5px;
         margin: 15px 0 19px;
         padding: 8px;
         background-color: #5f7782;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 3px 4px 2px rgb(41, 40, 40);
-        text-decoration: none;
+        box-shadow: 2px 3px 3px 2px rgb(41, 40, 40);
     }
     
     .kotak-link>.logo {
