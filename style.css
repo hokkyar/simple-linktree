@@ -7,7 +7,6 @@
     
     .nama {
         text-align: center;
-        /* color: #dad5d2; */
         background-color: #dad5d2;
         font-size: 35px;
         text-transform: uppercase;
@@ -17,25 +16,24 @@
         -webkit-background-clip: text;
         font-weight: bold;
     }
-    
-    .nama::before {
+    /* .nama::before {
         content: attr(data-title);
-        background: linear-gradient(#1b2225, #365cc5);
+        background: linear-gradient(#1b2225, #c53679);
         position: absolute;
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
-        animation: animate 9s alternate infinite;
+        animation: welcome 2s alternate infinite;
     }
     
-    @keyframes animate {
+    @keyframes welcome {
         0% {
             width: 0;
         }
         100% {
             width: 178px;
         }
-    }
+    } */
     
     header {
         background-image: url('assets/2873523.png');
@@ -69,7 +67,8 @@
         background-color: #5f7782;
         align-items: center;
         justify-content: center;
-        box-shadow: 0 5px 5px 3px rgb(41, 40, 40);
+        box-shadow: 0 3px 4px 2px rgb(41, 40, 40);
+        /* transition: 2s; */
     }
     
     .kotak-link>.logo {
@@ -95,8 +94,18 @@
         font-size: 25px;
         text-transform: capitalize;
         margin-left: 20px;
-        color: #dad5d2;
         width: 100%;
+        background-color: #dad5d2;
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    
+    .kotak-link>a:hover {
+        color: transparent;
+        background: linear-gradient(#1b2225, #c53679);
+        background-clip: text;
+        -webkit-background-clip: text;
     }
     
     footer {
