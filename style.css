@@ -16,24 +16,6 @@
         -webkit-background-clip: text;
         font-weight: bold;
     }
-    /* .nama::before {
-        content: attr(data-title);
-        background: linear-gradient(#1b2225, #c53679);
-        position: absolute;
-        color: transparent;
-        background-clip: text;
-        -webkit-background-clip: text;
-        animation: welcome 2s alternate infinite;
-    }
-    
-    @keyframes welcome {
-        0% {
-            width: 0;
-        }
-        100% {
-            width: 178px;
-        }
-    } */
     
     header {
         background-image: url('assets/2873523.png');
@@ -68,7 +50,6 @@
         align-items: center;
         justify-content: center;
         box-shadow: 0 3px 4px 2px rgb(41, 40, 40);
-        /* transition: 2s; */
     }
     
     .kotak-link>.logo {
